@@ -49,6 +49,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .navigation-box {
@@ -140,6 +141,7 @@ body {
   min-width: 200px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-color: transparent;
   font-family: 'Roboto', sans-serif;
   background-color: var(--first-color);
   font-weight: 700;
@@ -166,6 +168,7 @@ body {
 
 .features-list {
   display: flex;
+  column-gap: 30px;
 }
 
 .feature-title {
@@ -178,7 +181,7 @@ body {
   color: var(--second-color);
 }
 .feature-description {
-  max-width: 270px;
+  width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -192,10 +195,20 @@ body {
   background-color: #f5f4fa;
 }
 .workers-list {
+  /* padding-bottom: ; */
   display: flex;
   column-gap: 30px;
 }
+
+.workers-list > li {
+  background-color: #fff;
+   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .section-title {
+  padding-top: 94px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -241,7 +254,6 @@ body {
 }
 
 .bottom-webstudio {
-
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -262,9 +274,9 @@ body {
 }
 
 .bottom-contacts-list {
-display: flex;
-flex-direction: column;
-row-gap: 9px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
 }
 
 .bottom-contacts .gray-link {
