@@ -336,8 +336,9 @@ button:focus {
 .portfolio-item-title {
   display: flex;
   justify-content: flex-start;
-  padding-left: 24px;
-  padding-right: 24px;
+  align-content: center;
+  margin-left: 24px;
+  margin-right: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -347,9 +348,8 @@ button:focus {
 
 .portfolio-item-description {
   display: flex;
-  justify-content: flex-start;
-  padding-left: 24px;
-  padding-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -358,4 +358,11 @@ button:focus {
 .portfolio-list-item {
   width: 370px;
   height: 404px;
+}
+
+.img-description-box {
+  margin-top: 16px;
+}
+
+.portfolio-list-item {
 }
