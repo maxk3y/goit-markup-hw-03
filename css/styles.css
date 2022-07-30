@@ -141,7 +141,7 @@ body {
   min-width: 200px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-color: transparent;
+  border: transparent;
   font-family: 'Roboto', sans-serif;
   background-color: var(--first-color);
   font-weight: 700;
@@ -202,7 +202,7 @@ body {
 
 .workers-list > li {
   background-color: #fff;
-   border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -302,6 +302,9 @@ body {
 }
 
 .portfolio-button button {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: transparent;
   padding: 6px 24px;
   border-radius: 4px;
   background-color: #f5f4fa;
@@ -323,8 +326,11 @@ button:focus {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 30px;
-  row-gap: 30px;
+  gap: 30px;
+}
+
+.portfolio-list > li {
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-item-title {
@@ -350,4 +356,6 @@ button:focus {
   color: var(--third-color);
 }
 .portfolio-list-item {
+  width: 370px;
+  height: 404px;
 }
