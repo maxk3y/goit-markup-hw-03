@@ -153,8 +153,6 @@ body {
 }
 
 .features-box {
-  display: flex;
-  flex-direction: row;
   padding-top: 94px;
   padding-bottom: 94px;
 }
